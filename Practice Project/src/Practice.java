@@ -16,6 +16,9 @@ public class Practice {
 		arynum[3] = 6;
 		arynum[4] = 8;
 		arynum[5] = 3;
+		
+		Arrays.sort(arynum);
+		
 		for (int i=0; i < arynum.length; i++) {
 			System.out.print(" number: " + arynum[i] );
 		}
