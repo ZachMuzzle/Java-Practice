@@ -6,6 +6,7 @@ public class Practice {
 
 	public static void main(String[] args) {
 		test(20);
+		CallClass.Call2(); // Calls the class CallClass and the method Call2 and executes 
 		List<int[]> list = new ArrayList<int[]>();
 ;		int[] arynum;
 		arynum = new int[6];
@@ -17,6 +18,7 @@ public class Practice {
 		arynum[4] = 8;
 		arynum[5] = 3;
 		
+		//Sorts array
 		Arrays.sort(arynum);
 		
 		for (int i=0; i < arynum.length; i++) {
@@ -24,6 +26,8 @@ public class Practice {
 		}
 		System.out.println("\n");
 		int[] array1 = {1,4, 7, 5, 3, 7};
+		
+		Arrays.sort(array1);
 		for (int i=0; i<array1.length;i++) {
 			System.out.print(" Number: " + array1[i]);
 
